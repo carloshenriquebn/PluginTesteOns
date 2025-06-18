@@ -9,7 +9,7 @@ const MeuPlugin = createPlugin({
     root: rootRouteRef
   }
 });
-const MeuPluginPage = meuPlugin.provide(
+const MeuPluginPage = MeuPlugin.provide(
   createRoutableExtension({
     name: "MeuPluginPage",
     component: () => Promise.resolve(() => "Hello World"),
