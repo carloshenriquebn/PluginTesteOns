@@ -2,17 +2,17 @@ import { createPlugin, createRouteRef, createRoutableExtension } from '@backstag
 
 
 export const rootRouteRef = createRouteRef({
-  id: 'meuplugin',
+  id: 'Meuplugin',
 });
 
-export const MeuPlugin = createPlugin({
-  id: 'meuplugin',
+export const Meuplugin = createPlugin({
+  id: 'Meuplugin',
   routes: {
     root: rootRouteRef,
   },
 });
 
-export const MeuPluginPage = MeuPlugin.provide(
+export const MeuPluginPage = Meuplugin.provide(
   createRoutableExtension({
     name: 'MeuPluginPage',
     component: () =>

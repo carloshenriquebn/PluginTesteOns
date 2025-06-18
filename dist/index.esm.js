@@ -1,15 +1,15 @@
 import { createRouteRef, createPlugin, createRoutableExtension } from '@backstage/core-plugin-api';
 
 const rootRouteRef = createRouteRef({
-  id: "meuplugin"
+  id: "Meuplugin"
 });
-const MeuPlugin = createPlugin({
-  id: "meuplugin",
+const Meuplugin = createPlugin({
+  id: "Meuplugin",
   routes: {
     root: rootRouteRef
   }
 });
-const MeuPluginPage = MeuPlugin.provide(
+const MeuPluginPage = Meuplugin.provide(
   createRoutableExtension({
     name: "MeuPluginPage",
     component: () => Promise.resolve(() => "Hello World"),
@@ -17,5 +17,5 @@ const MeuPluginPage = MeuPlugin.provide(
   })
 );
 
-export { MeuPlugin, MeuPluginPage, rootRouteRef };
+export { MeuPluginPage, Meuplugin, rootRouteRef };
 //# sourceMappingURL=index.esm.js.map

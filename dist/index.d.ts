@@ -1,4 +1,4 @@
 declare const rootRouteRef: any;
-declare const meuPlugin: any;
+declare const Meuplugin: any;
 
-export { meuPlugin, rootRouteRef };
+export { Meuplugin, rootRouteRef };
