@@ -5,7 +5,7 @@ export const rootRouteRef = createRouteRef({
   id: 'meuplugin',
 });
 
-export const meuPlugin = createPlugin({
+export const MeuPlugin = createPlugin({
   id: 'meuplugin',
   routes: {
     root: rootRouteRef,

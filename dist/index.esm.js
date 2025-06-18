@@ -3,7 +3,7 @@ import { createRouteRef, createPlugin, createRoutableExtension } from '@backstag
 const rootRouteRef = createRouteRef({
   id: "meuplugin"
 });
-const meuPlugin = createPlugin({
+const MeuPlugin = createPlugin({
   id: "meuplugin",
   routes: {
     root: rootRouteRef
@@ -17,5 +17,5 @@ const MeuPluginPage = meuPlugin.provide(
   })
 );
 
-export { MeuPluginPage, meuPlugin, rootRouteRef };
+export { MeuPlugin, MeuPluginPage, rootRouteRef };
 //# sourceMappingURL=index.esm.js.map
