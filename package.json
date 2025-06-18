@@ -1,5 +1,5 @@
 {
-  "name": "@meuorg/plugin-meuplugin",
+  "name": "@carloshenriquebn/pluginytesteons",
   "version": "1.0.0",
   "main": "dist/src/index.js",
   "types": "dist-types/src/index.d.ts",
