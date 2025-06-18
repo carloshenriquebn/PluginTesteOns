@@ -12,7 +12,7 @@ export const MeuPlugin = createPlugin({
   },
 });
 
-export const MeuPluginPage = meuPlugin.provide(
+export const MeuPluginPage = MeuPlugin.provide(
   createRoutableExtension({
     name: 'MeuPluginPage',
     component: () =>
