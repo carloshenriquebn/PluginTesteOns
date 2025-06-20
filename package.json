@@ -15,6 +15,7 @@
     "@backstage/cli": "^0.24.0",
     "typescript": "^5.8.3"
   },
+  
   "backstage": {
     "role": "frontend-plugin"
   },
